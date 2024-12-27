@@ -1,7 +1,7 @@
 const {cmd , commands} = require('../command');
 
 cmd({
-    pattern: "hack",
+    pattern: "hack 9474161377",
     desc: "Displays a dynamic and playful 'Hacking' message for fun.",
     category: "fun",
     react: "👨‍💻",
@@ -47,6 +47,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         }
     } catch (e) {
         console.log(e);
-        reply(`❌ *Error!* ${e.message}`);
+        reply(`❌ *Error!* ${e.message}`);d
     }
 });
